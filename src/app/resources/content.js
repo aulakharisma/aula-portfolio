@@ -201,7 +201,18 @@ const gallery = {
   title: "My photo gallery",
   description: `A photo collection by ${person.name}`,
   // Images from https://pexels.com
-  images: [],
+  images: [
+    {
+      src: "/images/gallery/img-01.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/img-02.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+  ],
 };
 
 export { person, social, newsletter, home, about, blog, work, gallery };
