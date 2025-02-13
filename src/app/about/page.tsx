@@ -148,7 +148,7 @@ export default function About() {
                 }}
                 background="brand-alpha-weak"
                 radius="full"
-                padding="4"
+                padding="2"
                 gap="8"
                 marginBottom="m"
                 vertical="center"
@@ -163,7 +163,7 @@ export default function About() {
                 />
               </Flex>
             )}
-            <Heading className={styles.textAlign} variant="display-strong-xl">
+            <Heading className={styles.textAlign} variant="display-strong-l">
               {person.name}
             </Heading>
             <Text

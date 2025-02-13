@@ -70,11 +70,11 @@ const about = {
     subItems: false,
   },
   avatar: {
-    display: true,
+    display: false,
   },
   calendar: {
-    display: false,
-    link: "https://cal.com",
+    display: true,
+    link: "https://calendar.google.com/calendar/u/3?cid=YXVsYWtoYXJpc21haC53b3JrQGdtYWlsLmNvbQ",
   },
   intro: {
     display: true,
